@@ -21,6 +21,6 @@ dependencies:
       - name: "{{ sansible_zookeeper_user }}"
         group: "{{ sansible_zookeeper_group }}"
 
-  - role: sansible.java
+  - role: geerlingguy.java
     sansible_java_vendor: "{{ sansible_zookeeper_java_vendor }}"
     sansible_java_version: "{{ sansible_zookeeper_java_version }}"
